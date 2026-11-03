@@ -1,0 +1,22 @@
+# Cyber Security Pilot
+
+> Cyber Security Pilot (CSP) helps organizations run recurring security work: external monitoring of domains and email, internal network scanning with NmapUI, endpoint baselines, and custom security tooling. Daedalus is CSP's multi-tenant portal where each client organization reviews its own dated security evidence.
+
+This site is static and public. It holds no client data. The Daedalus portal itself requires a Google sign-in and an approved workspace membership.
+
+## Pages
+
+- [Cyber Security Pilot](https://cybersecuritypilot.org/): services overview and how the work is organized
+- [Daedalus overview](https://cybersecuritypilot.org/daedalus.html): what the portal does, its access model and how it is deployed
+
+## Daedalus
+
+- [Client portal sign-in](https://daedalus.cybersecuritypilot.org/): sign-in page; everything else needs an account
+- [Portal llms.txt](https://daedalus.cybersecuritypilot.org/llms.txt): what an AI assistant can do in the portal after the person signs in
+- [Source code](https://github.com/techmore/tm-daedalus): public repository
+- [Public project report](https://github.com/techmore/tm-daedalus/blob/main/PUBLIC-PROJECT-REPORT.md): status and history
+
+## Related projects
+
+- [NmapUI](https://techmore.github.io/TM-NMapUI-www/): the local network scanner that reports into Daedalus
+- [External baseline](https://techmore.github.io/tm-external-baseline/): public external-posture checks
